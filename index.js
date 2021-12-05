@@ -16,6 +16,7 @@ Notes:
 const express = require('express');
 const mysql = require('mysql');
 const ejs = require('ejs');
+const path = require("path");
 // Trivia Question Feature
 const startButton = document.getElementById('start-btn')
 const nextButton = document.getElementById('next-btn')
