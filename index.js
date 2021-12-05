@@ -7,7 +7,7 @@ Purpose: The js landing page for the server.
 Notes:
     -The noted from this come from fullstack.js from Prof Sen and his 
     recording from Nov. 18th
-    -Having SERIOUS issues with having ejs files open and not dowload
+    -Having SERIOUS issues with having ejs files open and not download
 
 -----------------------------------------------------------------------------
 */
@@ -71,7 +71,9 @@ app.get('/my_fun_facts',(req,res) => {
 app.get('/blog',(req,res) => {
   res.render('/html/blog');
 });
+
 //Trivia listeners
+
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++
