@@ -173,6 +173,33 @@ const questions = [
     ]
   },
   {
+    question: 'Where do the Detroit Lions play their home games?',
+    answers: [
+      { text: 'Comerica Park', correct: false },
+      { text: 'Ford Field', correct: true },
+      { text: 'Little Ceasars Arena', correct: false },
+      { text: 'The Big House', correct: false }
+    ]
+  },
+  {
+    question: 'Where did the Detroit Pistons play their home games in the 1990s and 2000s?',
+    answers: [
+      { text: 'Pontiac Silverdome', correct: false },
+      { text: 'The Palace of Auburn Hills', correct: true },
+      { text: 'Comerica Park', correct: false },
+      { text: 'Joe Louis Arena', correct: false }
+    ]
+  },
+  {
+    question: 'Where did the Pistons originate from before rellocating in 1957 to Detroit, Michigan?',
+    answers: [
+      { text: 'New York City, New York', correct: false },
+      { text: 'Fort Wayne, Indiana', correct: true },
+      { text: 'Chicago,Illinios', correct: false },
+      { text: 'Cleveland, Ohio', correct: false }
+    ]
+  },
+  {
     question: 'Which of the four team was a part of the Original Six NHL teams',
     answers: [
       { text: 'Vancouver Jets', correct: false },
