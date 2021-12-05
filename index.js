@@ -57,19 +57,19 @@ app.use(static('public'));
 
 //route <url the client will use and how the server will repons to that url>
 app.get('/',(req,res) => {
-    res.render('/views/index.ejs');
+    res.render('/views/index');
 });
 
 app.get('/my_resume',(req,res) => {
-  res.render('/html/my_resume.ejs');
+  res.render('/html/my_resume');
 });
 
 app.get('/my_fun_facts',(req,res) => {
-  res.render('/html/my_fun_facts.ejs');
+  res.render('/html/my_fun_facts');
 });
 
 app.get('/blog',(req,res) => {
-  res.render('/html/blog.ejs');
+  res.render('/html/blog');
 });
 //Trivia listeners
 startButton.addEventListener('click', startGame)

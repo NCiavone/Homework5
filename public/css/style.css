@@ -164,7 +164,7 @@ body.wrong {
   --hue: var(--hue-wrong);
 }
 
-.container {
+.container.trivia {
   width: 800px;
   max-width: 80%;
   background-color: white;
